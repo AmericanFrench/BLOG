@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T19:47:44.905Z" agent="5.0 (X11)" version="20.8.0" etag="zvpsNZ-ANwaa0MM-IjGB" type="github"><diagram id="K_EmAL3-xcglvrr4js4b">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-03T19:48:36.964Z" agent="5.0 (X11)" version="20.8.0" etag="u27w-zFs0F3f-pRhEPvi" type="github">
+  <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
+    <mxGraphModel dx="2882" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fvO3KNyIIssVne_HvKWL-1" value="&lt;div&gt;IH&lt;/div&gt;&lt;div&gt;10.50.X.X&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fvO3KNyIIssVne_HvKWL-2" value="&lt;div&gt;INITIAL&lt;/div&gt;&lt;div&gt;PIVOT&lt;/div&gt;&lt;div&gt;22&lt;/div&gt;&lt;div&gt;80&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="550" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fvO3KNyIIssVne_HvKWL-3" value="&lt;div align=&quot;left&quot;&gt;NET RECON METHODOLOGY&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.) HOST DISCOVERY (PING SWEEP, NMAP, SCAN.SH, NC)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.) PORT DISCOVERY (NMAP, NC, SCAN.SH)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.) PORT VALIDATION (BANNER GRAB WITH NC)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.) FOLLOW-ON ACTIONS BASED ON PORTS FOUND:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;4a.) IF 22 OR 23, CONNECT TO IT AND DO PASSIVE RECON&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;4b.) IF 21 OR 80, PULL THE FILES (wget -r http://ip_address; wget -r ftp://ip_address)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="510" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
