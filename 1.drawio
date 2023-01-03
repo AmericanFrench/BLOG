@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T15:41:01.333Z" agent="5.0 (X11)" etag="sfI45jNqdbm-C6xGrHei" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T19:21:36.109Z" agent="5.0 (X11)" etag="I99HCnjX45-FI2iYk5P9" version="20.6.2" type="github">
   <diagram id="lBAjOvPpRmK4NNc1S1s2" name="Page-1">
-    <mxGraphModel dx="2036" dy="2224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1799" dy="1999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,14 +295,14 @@
         <mxCell id="3TZ-PgPB0-ztwdqfYQBz-1" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1581" y="80" width="78" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3TZ-PgPB0-ztwdqfYQBz-2" value="&lt;div&gt;PORT 22&lt;/div&gt;&lt;div&gt;User: &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3TZ-PgPB0-ztwdqfYQBz-2" value="&lt;div&gt;PORT 22&lt;/div&gt;&lt;div&gt;User: &lt;br&gt;&lt;/div&gt;&lt;div&gt;HostName: red-int-dmz2-host-2&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1570" y="175" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TZ-PgPB0-ztwdqfYQBz-3" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1541" y="-202" width="78" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3TZ-PgPB0-ztwdqfYQBz-4" value="&lt;div&gt;PORT 22,80&lt;/div&gt;&lt;div&gt;User: &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="-107" width="120" height="60" as="geometry" />
+        <mxCell id="3TZ-PgPB0-ztwdqfYQBz-4" value="&lt;div&gt;PORT&lt;/div&gt;&lt;div&gt;TCP&lt;/div&gt;&lt;div&gt;22,80,2305,&lt;/div&gt;&lt;div&gt;2800,2828&lt;br&gt;&lt;/div&gt;&lt;div&gt;UDP&lt;/div&gt;&lt;div&gt;2000,2011,2200,&lt;/div&gt;&lt;div&gt;2250,2999&lt;br&gt;&lt;/div&gt;&lt;div&gt;User: &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="-107" width="120" height="127" as="geometry" />
         </mxCell>
         <mxCell id="3TZ-PgPB0-ztwdqfYQBz-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
