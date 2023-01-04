@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T13:55:40.760Z" agent="5.0 (X11)" etag="k9q5PgEvqz67msHL0guD" version="20.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T14:06:02.517Z" agent="5.0 (X11)" etag="hJfMbR6KMfdO_WYGj8aT" version="20.8.0" type="github">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="2882" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="665" width="560" height="60" as="geometry" />
+          <mxGeometry x="1560" y="665" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="665" width="230" height="60" as="geometry" />
+          <mxGeometry x="1220" y="665" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fvO3KNyIIssVne_HvKWL-1" value="&lt;div&gt;IH&lt;/div&gt;&lt;div&gt;10.50.X.X&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="260" width="80" height="70" as="geometry" />
@@ -28,11 +28,11 @@
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-2" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;u&gt;Definitions:&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-L is a local port forward&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1000" y="760" width="580" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="r2yNoiYbQeCpv3nFTYzb-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ssh -p user@IP_Address&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="680" width="400" height="30" as="geometry" />
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ssh &amp;nbsp; &amp;nbsp; -p port&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; user@IP_Address&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="680" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CONNECTION PIECE&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1342.5" y="635" width="165" height="30" as="geometry" />
+          <mxGeometry x="1303.5" y="635" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-8" value="-L" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1550" y="680" width="60" height="30" as="geometry" />
