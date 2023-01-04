@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T14:44:55.035Z" agent="5.0 (X11)" etag="Nq_YZjjumO7oJN2t9UNP" version="20.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T15:04:43.097Z" agent="5.0 (X11)" etag="3sT7zBm_AgVabZ_tyKJf" version="20.8.0" type="github">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="2882" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -88,14 +88,20 @@
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-27" value="&lt;div&gt;@IH ssh user@IP_A -L 12345:IP_B:4444 -NT&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
           <mxGeometry x="420" y="710" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r2yNoiYbQeCpv3nFTYzb-28" value="@IH ss -nltp&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;#should see &quot;127.0.0.1:12345&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
-          <mxGeometry x="420" y="770" width="500" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-29" value="run to ensure port is running" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="110" y="770" width="310" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="r2yNoiYbQeCpv3nFTYzb-30" value="@IH ssh -p 12345 user@127.0.0.1 -or- ssh -p 12345 user@localhost" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
-          <mxGeometry x="420" y="830" width="840" height="100" as="geometry" />
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-30" value="&lt;div&gt;@IH ss -nltp&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;#should see &quot;127.0.0.1:12345&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@IH ssh -p 12345 user@127.0.0.1 -or- ssh -p 12345 user@localhost&lt;/div&gt;&lt;div&gt;@B exit&lt;br&gt;&lt;/div&gt;&lt;div&gt;@IH ssh -p 12345 user@localhost -D 9050 -NT&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="770" width="840" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-32" value="can only run one dynamic tunnel at a time" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="890" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-33" value="&lt;div&gt;@IH ss -ntlp&lt;/div&gt;&lt;div&gt;@IH proxychains nmap -Pn 172.16.82.0/27 -p 21-23,80 -T4 | egrep -i &quot;scan|report|open|succ&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="980" width="1320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-34" value="to run &quot;from B&quot;, include proxychains in front" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1010" width="310" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
