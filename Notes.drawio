@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T15:41:01.879Z" agent="5.0 (X11)" etag="Gb8It2nRyQwgFlPM0l8T" version="20.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T15:50:24.079Z" agent="5.0 (X11)" etag="8UWwv3zC27da1jH9s6KT" version="20.8.0" type="github">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="2882" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,6 +58,11 @@
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-17" value="&lt;div&gt;A&lt;/div&gt;&lt;div&gt;22&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1282.5" y="440" width="80" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0.025;entryY=0.657;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r2yNoiYbQeCpv3nFTYzb-18" target="r2yNoiYbQeCpv3nFTYzb-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-18" value="&lt;div&gt;B&lt;/div&gt;&lt;div&gt;4444(Alt-SSH)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="440" width="80" height="70" as="geometry" />
         </mxCell>
@@ -97,11 +102,41 @@
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-32" value="can only run one dynamic tunnel at a time" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="110" y="890" width="310" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="r2yNoiYbQeCpv3nFTYzb-33" value="&lt;div&gt;@IH ss -ntlp&lt;/div&gt;&lt;div&gt;@IH proxychains nmap -Pn 172.16.82.0/27 -p 21-23,80 -T4 | egrep -i &quot;scan|report|open|succ&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-33" value="&lt;div&gt;@IH ss -ntlp&lt;/div&gt;&lt;div&gt;@IH proxychains nmap -Pn 172.16.82.0/27 -p 21-23,80 -T4 | egrep -i &quot;scan|report|open|succ&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@IH ssh -p 12345 user@localhost(127.0.01) -L 1721:172.16.82.22:23 -NT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Connects to B&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Tunnel to .22&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
           <mxGeometry x="420" y="980" width="1320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-34" value="to run &quot;from B&quot;, include proxychains in front" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="110" y="1010" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-35" value="&lt;div&gt;C&lt;br&gt;&lt;/div&gt;&lt;div&gt;.22&lt;/div&gt;&lt;div&gt;Ports: 23,80&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="330" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="710" as="sourcePoint" />
+            <mxPoint x="1300" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-40" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="r2yNoiYbQeCpv3nFTYzb-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="470" as="sourcePoint" />
+            <mxPoint x="1610" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-41" value="&lt;div&gt;C&lt;br&gt;&lt;/div&gt;&lt;div&gt;.15&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ports: 21,22&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="510" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-42" value="port 1721 is opened on the Internet host" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="980" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-43" value="&lt;div&gt;@IH ss -ntlp&lt;/div&gt;&lt;div&gt;@IH proxychains nmap -Pn 172.16.82.0/27 -p 21-23,80 -T4 | egrep -i &quot;scan|report|open|succ&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@IH ssh -p 12345 user@localhost(127.0.01) -L 1721:172.16.82.22:23 -NT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Connects to B&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Tunnel to .22&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1160" width="1320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-44" value="172.16.82.0/27" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBorderColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-45" value=".1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1569.25" y="480" width="20.75" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
