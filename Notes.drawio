@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T18:46:16.375Z" agent="5.0 (X11)" etag="XMW3HnEEGGeyRj8D0r5v" version="20.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T18:49:35.572Z" agent="5.0 (X11)" etag="8uF3hGXURDJhAjghC5P4" version="20.8.0" type="github">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="2882" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,6 +158,9 @@
         </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-54" value="@B: ssh user@IP_A -R 1111:localhost:22 -NT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2260" y="902" width="260" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-56" value="localhost can either mean loopback if your destination is yourself for a tunnel or the box you want to be on." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="598.5" y="340" width="500" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
