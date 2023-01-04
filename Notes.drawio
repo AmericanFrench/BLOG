@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T15:04:43.097Z" agent="5.0 (X11)" etag="3sT7zBm_AgVabZ_tyKJf" version="20.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T15:41:01.879Z" agent="5.0 (X11)" etag="Gb8It2nRyQwgFlPM0l8T" version="20.8.0" type="github">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="2882" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="fvO3KNyIIssVne_HvKWL-5" value="192.168.0.27" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1720" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="r2yNoiYbQeCpv3nFTYzb-2" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;u&gt;Definitions:&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-L is a local port forward&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-2" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;u&gt;Definitions:&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-L is a local port forward&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-D dynamic port forward. Can only be one. Gets created locally where you RAN THE COMMAND. Default port for Proxychains is 9050.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="925" y="130" width="580" height="210" as="geometry" />
         </mxCell>
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ssh &amp;nbsp; &amp;nbsp; -p port&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; user@IP_Address&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
