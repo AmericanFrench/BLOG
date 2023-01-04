@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T18:51:46.026Z" agent="5.0 (X11)" etag="q2FDpo_K4tZSK5KdwfYY" version="20.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T19:17:27.503Z" agent="5.0 (X11)" etag="9fTDWDVC6yRBqaAJW1ZF" version="20.8.0" type="github">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="2882" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -159,8 +159,8 @@
         <mxCell id="r2yNoiYbQeCpv3nFTYzb-54" value="@B: ssh user@IP_A -R 1111:localhost:22 -NT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2260" y="902" width="260" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="r2yNoiYbQeCpv3nFTYzb-56" value="localhost can either mean loopback if your destination is yourself for a tunnel or the box you want to be on." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="598.5" y="340" width="500" height="160" as="geometry" />
+        <mxCell id="r2yNoiYbQeCpv3nFTYzb-56" value="&lt;div&gt;WHO IS LOCALHOST?!&lt;/div&gt;&lt;div&gt;Note: localhost may also be written as 127.0.0.1&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Example 1: &lt;/b&gt;@IH ssh -p &amp;lt;port&amp;gt; user@localhost&lt;/div&gt;&lt;div&gt;#localhost &quot;is us&quot; on the box we RAN THE COMMAND (in this case Internet Host)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Example 2:&lt;/b&gt; @IH ssh user@ip_A -L port:localhost:port -NT&lt;/div&gt;&lt;div&gt;#localhost on a -L means who we are connecting to in our CONNECTION PIECE in this case Box A).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Example 3:&lt;/b&gt; @IH ssh user@ip_address -R port:localhost:port -NT&lt;/div&gt;&lt;div&gt;#localhost on a -R means &quot;us&quot; on the box we RAN THE COMMAND (in this case Internet_Host)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1120" width="880" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
