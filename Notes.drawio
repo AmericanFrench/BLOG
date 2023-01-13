@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T15:58:57.288Z" agent="5.0 (X11)" etag="tWjaW_8ODVaK00rnz65P" version="20.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-13T17:55:28.990Z" agent="5.0 (X11)" etag="Vm7BRq2cT_TguWhkFIBq" version="20.8.4" type="github" pages="4">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="1711" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1052,7 +1052,7 @@
         <mxCell id="qMqN52ZwIo5hI7wQBVSl-1" value="&lt;div&gt;10216&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="-590" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qMqN52ZwIo5hI7wQBVSl-2" value="&lt;div&gt;ssh -p 7777 net1_student2@10.50.23.177 -L 10212:localhost:7777 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10213:10.2.2.7:23 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;telnet localhost 20213&lt;/div&gt;&lt;div&gt;ssh net1_student2@10.2.2.6 -p 7777 -R 10214:localhost:2222 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10215:localhost:10214 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qMqN52ZwIo5hI7wQBVSl-2" value="&lt;div&gt;ssh -p 7777 net1_student2@10.50.23.177 -L 10212:localhost:7777 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10213:10.2.2.7:23 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;telnet localhost 20213&lt;/div&gt;&lt;div&gt;ssh net1_student2@10.2.2.6 -p 7777 -R 10214:localhost:2222 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10215:localhost:10214 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 301 net1_student2@10.10.10.140 -L 10216:localhost:22 -NT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-510" y="-670" width="510" height="170" as="geometry" />
         </mxCell>
       </root>
