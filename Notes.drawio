@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T13:54:39.698Z" agent="5.0 (X11)" etag="-8O_w0yGcQ44ReAJj7aZ" version="20.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-13T13:58:03.008Z" agent="5.0 (X11)" etag="TUl9qe6rLzLTU2a3d1qm" version="20.8.4" type="github" pages="4">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="1711" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -709,7 +709,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="joOplQIqlpBmrpol47cs" name="Page-4">
-    <mxGraphModel dx="3512" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2348" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -939,7 +939,7 @@
         <mxCell id="rrtVccglgWv6BNngEeQo-3" value=".177" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="235" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rrtVccglgWv6BNngEeQo-4" value="10.50.23.177" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rrtVccglgWv6BNngEeQo-4" value="10.2.2.6/28" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="145" y="20" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="py8b8T5KUnEhpjgnIfC4-1" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wSF7DB9FnU-b1im_y4Ub-4" target="rrtVccglgWv6BNngEeQo-2">
@@ -948,6 +948,9 @@
             <mxPoint x="184" y="430" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HtC3O6PzSOlCYpt75nA0-1" value="ssh -p 7777 net1_student2@10.50.23.177" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="430" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
