@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T20:22:43.727Z" agent="5.0 (X11)" etag="sj65PWLv4Cj2NnCl0w15" version="20.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-17T14:46:45.494Z" agent="5.0 (X11)" etag="l2_mEbBhDS-W8bBDlxJY" version="20.8.4" type="github" pages="4">
   <diagram id="6IpJzxctdk1KV1eEZQXn" name="Page-1">
     <mxGraphModel dx="1711" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -713,6 +713,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9_5epIJWLa6920J174K6-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.8576" y="445" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-193.21000000000038" y="-270" as="sourcePoint" />
+            <mxPoint x="-192.4796" y="-380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-11" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_5epIJWLa6920J174K6-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="-410" as="sourcePoint" />
+            <mxPoint x="-45" y="-409.0805882352943" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9_5epIJWLa6920J174K6-2" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_5epIJWLa6920J174K6-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="-410" as="sourcePoint" />
@@ -1037,7 +1050,7 @@
         <mxCell id="qMqN52ZwIo5hI7wQBVSl-1" value="&lt;div&gt;10216&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="-590" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qMqN52ZwIo5hI7wQBVSl-2" value="&lt;div&gt;ssh -p 7777 net1_student2@10.50.23.177 -L 10212:localhost:7777 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10213:10.2.2.7:23 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;telnet localhost 20213&lt;/div&gt;&lt;div&gt;ssh net1_student2@10.2.2.6 -p 7777 -R 10214:localhost:2222 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10215:localhost:10214 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost -L 10216:10.10.10.140:301 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost -L 10217:10.10.10.167:404 -NT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qMqN52ZwIo5hI7wQBVSl-2" value="&lt;div&gt;ssh -p 7777 net1_student2@10.50.23.177 -L 10212:localhost:7777 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10213:10.2.2.7:23 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;telnet localhost 20213&lt;/div&gt;&lt;div&gt;ssh net1_student2@10.2.2.6 -p 7777 -R 10214:localhost:2222 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh net1_student2@localhost -p 10212 -L 10215:localhost:10214 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost -L 10216:10.10.10.140:301 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost -L 10217:10.10.10.167:404 -NT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ssh -p 10215 net1_student2@localhost -L 10218:10.10.10.182:504 -NT&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-510" y="-670" width="510" height="170" as="geometry" />
         </mxCell>
         <mxCell id="n4MH1rL9mDUpYEssHUDS-1" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="n4MH1rL9mDUpYEssHUDS-4">
@@ -1084,11 +1097,35 @@
             <mxPoint x="695" y="-409.0805882352943" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9_5epIJWLa6920J174K6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_5epIJWLa6920J174K6-8" target="9_5epIJWLa6920J174K6-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="9_5epIJWLa6920J174K6-8" value="192.168.10.64/27" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="-465" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-12" value="&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;21,22&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-470" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-13" value=".99" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-425" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-14" value=".101" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-425" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-15" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9_5epIJWLa6920J174K6-14" target="9_5epIJWLa6920J174K6-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-270" y="-410" as="sourcePoint" />
+            <mxPoint x="-45" y="-409.0805882352943" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-16" value="192.168.10.96/27" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="-465" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-17" value="&lt;div&gt;10218&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-370" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-18" value="&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;21,22&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-252.5" y="-300" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9_5epIJWLa6920J174K6-19" value=".111" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-207.5" y="-310" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
