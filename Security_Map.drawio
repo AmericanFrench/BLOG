@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T14:05:57.830Z" agent="5.0 (X11)" etag="h_svoQcxspUuYqXyyQ06" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T15:44:05.051Z" agent="5.0 (X11)" etag="UN3cRc8aCJFkUFR0UtuG" version="20.8.13" type="github">
   <diagram name="Page-1" id="JBi5x4pVinOrZoTBTQoq">
     <mxGraphModel dx="2111" dy="2285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -114,10 +114,10 @@
         <mxCell id="hVUxj827XxSnQjQ6Rqo2-36" value="192.168.28.96/27" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="432.5" width="100" height="97.5" as="geometry" />
         </mxCell>
-        <mxCell id="hVUxj827XxSnQjQ6Rqo2-38" value="&lt;div&gt;.100&lt;/div&gt;&lt;div&gt;Ports:&lt;br&gt;&lt;/div&gt;2222" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1211.25" y="642.5" width="127.5" height="127.5" as="geometry" />
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-38" value="&lt;div&gt;.100&lt;/div&gt;&lt;div&gt;Ports:&lt;br&gt;&lt;/div&gt;&lt;div&gt;2222&lt;/div&gt;&lt;div&gt;Donovian_Extranet&lt;/div&gt;&lt;div&gt;comrade&lt;/div&gt;&lt;div&gt;StudentMidwayPassword&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1211.25" y="642.5" width="137.5" height="137.5" as="geometry" />
         </mxCell>
-        <mxCell id="hVUxj827XxSnQjQ6Rqo2-40" value="&lt;div&gt;.120&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;4242&lt;/div&gt;&lt;div&gt;student&lt;/div&gt;&lt;div&gt;YourTempPassword&lt;/div&gt;&lt;div&gt;grey-site-donovia&lt;br&gt;&lt;/div&gt;-09" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-40" value="&lt;div&gt;.120&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;4242&lt;/div&gt;&lt;div&gt;&lt;div&gt;grey-site-donovia&lt;br&gt;&lt;/div&gt;-09&lt;/div&gt;&lt;div&gt;student&lt;/div&gt;&lt;div&gt;YourTempPassword&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1730" y="640" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="hVUxj827XxSnQjQ6Rqo2-41" value="&lt;div&gt;.111&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;80,2222,8080&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
