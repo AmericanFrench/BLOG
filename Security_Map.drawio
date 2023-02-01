@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T18:15:37.497Z" agent="5.0 (X11)" etag="abjOLpnDGuEVu_IsacIg" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T19:11:21.967Z" agent="5.0 (X11)" etag="rFJlBWxJxvM3SYIgW54W" version="20.8.13" type="github">
   <diagram name="Page-1" id="JBi5x4pVinOrZoTBTQoq">
     <mxGraphModel dx="2111" dy="2285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -277,16 +277,16 @@
         <mxCell id="hVUxj827XxSnQjQ6Rqo2-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hVUxj827XxSnQjQ6Rqo2-96" target="hVUxj827XxSnQjQ6Rqo2-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hVUxj827XxSnQjQ6Rqo2-97" value=".225" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-97" value="&lt;div&gt;.225&lt;/div&gt;Ports:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="591.25" y="1175" width="137.5" height="137.5" as="geometry" />
         </mxCell>
-        <mxCell id="hVUxj827XxSnQjQ6Rqo2-98" value=".245" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-98" value="&lt;div&gt;.245&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;135,139,445,3389,5040&lt;/div&gt;&lt;div&gt;5985,5986,9999,&lt;/div&gt;&lt;div&gt;47001,49664,49665,&lt;/div&gt;&lt;div&gt;49666,49667,49668,&lt;/div&gt;&lt;div&gt;49669,49670,49672&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1110" y="1172.5" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="hVUxj827XxSnQjQ6Rqo2-99" value=".227" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-99" value="&lt;div&gt;.227&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;53(tcp)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="940" y="1172.5" width="127.5" height="127.5" as="geometry" />
         </mxCell>
-        <mxCell id="hVUxj827XxSnQjQ6Rqo2-100" value=".226" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-100" value="&lt;div&gt;.226&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;53(tcp)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="760" y="1172.5" width="127.5" height="127.5" as="geometry" />
         </mxCell>
         <mxCell id="hVUxj827XxSnQjQ6Rqo2-104" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -296,8 +296,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hVUxj827XxSnQjQ6Rqo2-96" target="hVUxj827XxSnQjQ6Rqo2-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hVUxj827XxSnQjQ6Rqo2-96" value="192.168.150.224/27" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="605" y="933.75" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-105" value="&lt;div&gt;5985(http)&lt;/div&gt;&lt;div&gt;9999 (secureserver)&lt;/div&gt;&lt;div&gt;47001(http)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1290" width="120" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-106" value="&lt;div&gt;.253&lt;/div&gt;&lt;div&gt;lin.intranet.donovia&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;80,514,3201(ssh)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1175" width="127.5" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hVUxj827XxSnQjQ6Rqo2-109" value="&lt;div&gt;192.168.56.1&lt;/div&gt;&lt;div&gt;&quot;badguy&quot;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="618.75" width="127.5" height="127.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
