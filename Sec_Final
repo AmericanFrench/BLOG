@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T14:34:28.692Z" agent="5.0 (X11)" etag="Rs4wXWZYt0PEU5DdzheF" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T14:48:49.754Z" agent="5.0 (X11)" etag="xzyT0UuodY2pEaH4VPm7" version="20.8.18" type="github">
   <diagram name="Page-1" id="Ytaaa-z_ftZsiDNC5-y5">
     <mxGraphModel dx="2742" dy="2079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -208,7 +208,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOn5iz1WfRQWJ7LG3Nyi-51" value="****&lt;div&gt;192.168.28.182&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;****&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kOn5iz1WfRQWJ7LG3Nyi-51" value="****&lt;div&gt;192.168.28.182&lt;/div&gt;&lt;div&gt;Ports:&lt;/div&gt;&lt;div&gt;22,80&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="590" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
